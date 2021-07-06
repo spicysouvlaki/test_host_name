@@ -8,4 +8,4 @@ print(socket.gethostname())
 st.write(socket.gethostname())
 
 
-print(os.environ.get("STREAMLIT_HOST", ""))
+st.write(os.environ.get("STREAMLIT_HOST", ""))
