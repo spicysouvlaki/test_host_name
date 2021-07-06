@@ -4,6 +4,7 @@ import os
 
 st.write("hello")
 
-st.write(os.getenv("STREAMLIT_HOST"))
+if os.getenv("HOSTNAME") == "streamlit":
+  os.write("welcome to the cloud")
 
 st.write(os.environ)
