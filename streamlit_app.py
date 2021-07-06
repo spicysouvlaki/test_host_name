@@ -6,5 +6,6 @@ st.write(os.system('hostname'))
 
 print(socket.gethostname())
 st.write(socket.gethostname())
-
+print(os.environ)
+print(os.environ.STREAMLIT_HOST)
 print(STREAMLIT_HOST)
