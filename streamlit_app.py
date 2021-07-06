@@ -5,3 +5,5 @@ import os
 st.write("hello")
 
 st.write(os.getenv("STREAMLIT_HOST"))
+
+st.write(os.environ)
